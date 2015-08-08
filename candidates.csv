@@ -1,4 +1,4 @@
-Candidate,Party,Domain,Framework,Open Source?
+candidate,party,domain,framework,open source?
 Ben Carson,R,bencarson.com,Unknown static site,?
 Bernie Sanders,D,berniesanders.com,WordPress,Y
 Chris Christie,R,chrischristie.com,Cowboy (Erlang),Y
