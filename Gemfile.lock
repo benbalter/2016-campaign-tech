@@ -1,0 +1,61 @@
+GIT
+  remote: git://github.com/benbalter/site-inspector.git
+  revision: 341c7cb8e2dafbf0511e4b3995adcfa3bd1e8113
+  specs:
+    site-inspector (2.1.0)
+      colorator (~> 0.1)
+      dnsruby (~> 1.56)
+      gman (~> 4.1)
+      mercenary (~> 0.3)
+      nokogiri (~> 1.6)
+      oj (~> 2.11)
+      public_suffix (~> 1.4)
+      sniffles (~> 0.2)
+      typhoeus (~> 0.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.8)
+    coderay (1.1.0)
+    colorator (0.1)
+    colorize (0.7.7)
+    dnsruby (1.58.0)
+    ethon (0.7.4)
+      ffi (>= 1.3.0)
+    ffi (1.9.10)
+    gman (4.7.1)
+      colorize (~> 0.7)
+      iso_country_codes (~> 0.6)
+      naughty_or_nice (~> 0.0.2)
+      swot (~> 0.4.2)
+    iso_country_codes (0.7.1)
+    mercenary (0.3.5)
+    method_source (0.8.2)
+    mini_portile (0.6.2)
+    naughty_or_nice (0.0.4)
+      addressable (~> 2.3)
+      public_suffix (>= 1.2)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    oj (2.12.11)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    public_suffix (1.5.1)
+    slop (3.6.0)
+    sniffles (0.2.0)
+      nokogiri (~> 1.6.1)
+    swot (0.4.2)
+      naughty_or_nice
+      public_suffix
+    typhoeus (0.7.3)
+      ethon (>= 0.7.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pry
+  site-inspector!

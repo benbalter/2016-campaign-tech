@@ -1,16 +1,16 @@
-Candidate,Party,Domain,Framework,Open Source?
-Ben Carson,R,bencarson.com,Unknown static site,?
-Bernie Sanders,D,berniesanders.com,WordPress,Y
-Chris Christie,R,chrischristie.com,Cowboy (Erlang),Y
-Donald Trump,R,donaldjtrump.com,Expression Engine,Y
-Hillary Clinton,D,hillaryclinton.com,Unknown static site,?
-Jeb Bush,R,jeb2016.com,WordPress,Y
-Jim Webb,D,webb2016.com,WordPress,Y
-John Kasich,R,johnkasich.com,WordPress,Y
-Lincoln Chafee,D,chafee2016.com,WordPress,Y
-Marco Rubio,R,marcorubio.com,WordPress,Y
-Martin O'Malley,D,martinomalley.com,WordPress,Y
-Mike Huckabee,R,mikehuckabee.com,ASP.net,N
-Rand Paul,R,randpaul.com,Unknown,?
-Scott Walker,R,scottwalker.com,Drupal,Y
-Ted Cruz,R,tedcruz.org,WordPress,Y
+candidate,party,domain,www?,non_www?,https?,enforces_https?,downgrades_https?,canonically_www?,canonically_https?,hsts?,hsts_preload?,sitemap?,robots_txt?,humans_txt?,proper_404s?,dnssec?,ipv6?,cloud_provider,google_apps?,server,cms,508_errors
+Ben Carson,R,bencarson.com,true,true,true,false,false,true,true,false,false,true,false,false,true,false,true,,false,cloudflare-nginx,,1
+Bernie Sanders,D,berniesanders.com,true,true,true,true,false,false,true,false,false,true,true,false,true,false,false,,true,cloudflare-nginx,wordpress,9
+Chris Christie,R,chrischristie.com,true,true,true,true,false,true,true,true,false,true,true,false,true,true,true,amazon,false,Cowboy,,4
+Donald Trump,R,donaldjtrump.com,true,true,true,true,false,true,true,false,false,false,true,false,true,false,true,,false,cloudflare-nginx,,8
+Hillary Clinton,D,hillaryclinton.com,true,true,true,true,false,true,true,true,false,false,true,false,true,true,true,,false,AmazonS3,,16
+Jeb Bush,R,jeb2016.com,true,true,true,false,false,false,true,false,false,true,true,false,true,false,false,,false,cloudflare-nginx,wordpress,40
+Jim Webb,D,webb2016.com,true,true,true,true,false,true,true,false,false,true,true,false,true,false,true,,false,cloudflare-nginx,,
+John Kasich,R,johnkasich.com,true,true,true,true,false,false,true,false,false,true,true,false,true,false,false,,true,Apache,wordpress,11
+Lincoln Chafee,D,chafee2016.com,true,true,true,false,false,true,false,false,false,true,true,false,true,false,false,linode,false,nginx,wordpress,9
+Marco Rubio,R,marcorubio.com,true,true,true,true,false,false,true,false,false,true,true,false,true,false,true,,true,cloudflare-nginx,wordpress,
+Martin O'Malley,D,martinomalley.com,true,true,true,false,false,false,true,false,false,true,true,false,true,false,false,linode,true,nginx,wordpress,23
+Mike Huckabee,R,mikehuckabee.com,true,true,true,true,false,false,true,false,false,false,false,false,true,false,false,,false,"",,1
+Rand Paul,R,randpaul.com,true,true,true,true,false,false,true,false,false,false,true,false,true,false,true,,true,cloudflare-nginx,,21
+Scott Walker,R,scottwalker.com,true,true,true,false,false,true,true,false,false,true,true,false,true,true,true,,false,nginx,drupal,6
+Ted Cruz,R,tedcruz.org,true,true,true,false,false,true,true,true,false,,,,false,false,true,,false,cloudflare-nginx,wordpress,20
