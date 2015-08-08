@@ -1,16 +1,16 @@
 Candidate,Party,Domain,Framework,Open Source?
-Ben Carson,R,https://www.bencarson.com/,Unknown static site,?
-Bernie Sanders,D,https://berniesanders.com/,WordPress,Y
-Chris Christie,R,https://www.chrischristie.com/,Cowboy (Erlang),Y
-Donald Trump,R,https://www.donaldjtrump.com/,Expression Engine,Y
-Hillary Clinton,D,https://www.hillaryclinton.com/,Unknown static site,?
-Jeb Bush,R,https://jeb2016.com/,WordPress,Y
-Jim Webb,D,https://www.webb2016.com/,WordPress,Y
-John Kasich,R,https://johnkasich.com/,WordPress,Y
-Lincoln Chafee,D,http://www.chafee2016.com/,WordPress,Y
-Marco Rubio,R,https://marcorubio.com/,WordPress,Y
-Martin O'Malley,D,https://martinomalley.com/,WordPress,Y
-Mike Huckabee,R,http://www.mikehuckabee.com/,ASP.net,N
-Rand Paul,R,https://www.randpaul.com/,Unknown,?
-Scott Walker,R,https://www.scottwalker.com/,Drupal,Y
-Ted Cruz,R,https://www.tedcruz.org/,WordPress,Y
+Ben Carson,R,bencarson.com,Unknown static site,?
+Bernie Sanders,D,berniesanders.com,WordPress,Y
+Chris Christie,R,chrischristie.com,Cowboy (Erlang),Y
+Donald Trump,R,donaldjtrump.com,Expression Engine,Y
+Hillary Clinton,D,hillaryclinton.com,Unknown static site,?
+Jeb Bush,R,jeb2016.com,WordPress,Y
+Jim Webb,D,webb2016.com,WordPress,Y
+John Kasich,R,johnkasich.com,WordPress,Y
+Lincoln Chafee,D,chafee2016.com,WordPress,Y
+Marco Rubio,R,marcorubio.com,WordPress,Y
+Martin O'Malley,D,martinomalley.com,WordPress,Y
+Mike Huckabee,R,mikehuckabee.com,ASP.net,N
+Rand Paul,R,randpaul.com,Unknown,?
+Scott Walker,R,scottwalker.com,Drupal,Y
+Ted Cruz,R,tedcruz.org,WordPress,Y
