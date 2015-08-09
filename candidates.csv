@@ -1,16 +1,16 @@
-name,party,domain,www?,non_www?,https?,enforces_https?,downgrades_https?,canonically_www?,canonically_https?,hsts?,hsts_preload?,sitemap?,robots_txt?,humans_txt?,proper_404s?,dnssec?,ipv6?,cloud_provider,google_apps?,server,open_source?,cms,508_errors
-Ben Carson,R,bencarson.com,true,true,true,false,false,true,true,false,false,true,false,false,true,false,true,,false,cloudflare-nginx,,,
+name,party,domain,www?,non_www?,https?,enforces_https?,downgrades_https?,canonically_www?,canonically_https?,hsts?,hsts_preload?,sitemap?,robots_txt?,humans_txt?,proper_404s?,dnssec?,ipv6?,cloud_provider,google_apps?,server,open_source?,framework,508_errors
+Ben Carson,R,bencarson.com,true,true,true,false,false,true,true,false,false,true,false,false,true,false,true,,false,cloudflare-nginx,false,,
 Bernie Sanders,D,berniesanders.com,true,true,true,true,false,false,true,false,false,true,true,false,true,false,false,,true,cloudflare-nginx,true,wordpress,9
-Chris Christie,R,chrischristie.com,true,true,true,true,false,true,true,true,false,true,true,false,true,true,true,amazon,false,Cowboy,true,,4
-Donald Trump,R,donaldjtrump.com,true,true,true,true,false,true,true,false,false,false,true,false,true,false,true,,false,cloudflare-nginx,,,8
-Hillary Clinton,D,hillaryclinton.com,true,true,true,true,false,true,true,true,false,false,true,false,true,true,true,,false,AmazonS3,,,16
-Jeb Bush,R,jeb2016.com,true,true,true,true,false,false,true,false,false,,,,false,false,false,amazon,false,Apache/2.4.7 (Ubuntu),,,
-Jim Webb,D,webb2016.com,true,true,true,true,false,true,true,false,false,true,true,false,true,true,true,,false,cloudflare-nginx,,,
+Chris Christie,R,chrischristie.com,true,true,true,true,false,true,true,true,false,true,true,false,true,true,true,amazon,false,Cowboy,false,,
+Donald Trump,R,donaldjtrump.com,true,true,true,true,false,true,true,false,false,false,true,false,true,false,true,,false,cloudflare-nginx,true,expression_engine,8
+Hillary Clinton,D,hillaryclinton.com,true,true,true,true,false,true,true,true,false,false,true,false,true,true,true,,false,AmazonS3,false,,
+Jeb Bush,R,jeb2016.com,true,true,true,true,false,false,true,false,false,,,,false,false,false,amazon,false,Apache/2.4.7 (Ubuntu),false,,121
+Jim Webb,D,webb2016.com,true,true,true,true,false,true,true,false,false,true,true,false,true,false,true,,false,cloudflare-nginx,true,php,
 John Kasich,R,johnkasich.com,true,true,true,true,false,false,true,false,false,true,true,false,true,false,false,,true,Apache,true,wordpress,11
 Lincoln Chafee,D,chafee2016.com,true,true,true,false,false,true,false,false,false,true,true,false,true,false,false,linode,false,nginx,true,wordpress,9
 Marco Rubio,R,marcorubio.com,true,true,true,true,false,false,true,false,false,true,true,false,true,false,true,,true,cloudflare-nginx,true,wordpress,
 Martin O'Malley,D,martinomalley.com,true,true,true,false,false,false,true,false,false,true,true,false,true,false,false,linode,true,nginx,true,wordpress,23
-Mike Huckabee,R,mikehuckabee.com,true,true,true,true,false,false,true,false,false,false,false,false,true,false,false,,false,"",,,
-Rand Paul,R,randpaul.com,true,true,true,true,false,false,true,false,false,false,true,false,true,false,true,,true,cloudflare-nginx,,,21
+Mike Huckabee,R,mikehuckabee.com,true,true,true,true,false,false,true,false,false,false,false,false,true,false,false,,false,"",false,,1
+Rand Paul,R,randpaul.com,true,true,true,true,false,false,true,false,false,false,true,false,true,false,true,,true,cloudflare-nginx,false,,21
 Scott Walker,R,scottwalker.com,true,true,true,false,false,true,true,false,false,true,true,false,true,true,true,,false,nginx,true,drupal,6
 Ted Cruz,R,tedcruz.org,true,true,true,false,false,true,true,true,false,,,,false,false,true,,false,cloudflare-nginx,true,wordpress,

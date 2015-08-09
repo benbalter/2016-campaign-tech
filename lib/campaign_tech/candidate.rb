@@ -29,20 +29,6 @@ class CampaignTech
       "#<CampaignTech::Candidate name=\"#{name}\">"
     end
 
-    # Simplified CMS reporting
-    def cms
-      @cms ||= begin
-        cms = inspector.canonical_endpoint.sniffer.cms
-        cms.keys.first if cms
-      end
-    end
-
-    def open_source?
-      return true if [:wordpress, :drupal].include?(cms)
-      return true if inspector.canonical_endpoint.headers.server == "Cowboy"
-      nil
-    end
-
     def method_missing(method_sym, *arguments, &block)
       if crawl.keys.any? { |key| key == method_sym }
         crawl[method_sym]
@@ -88,8 +74,8 @@ class CampaignTech
         :cloud_provider     => inspector.canonical_endpoint.dns.cloud_provider,
         :google_apps?       => inspector.canonical_endpoint.dns.google_apps?,
         :server             => inspector.canonical_endpoint.headers.server,
-        :open_source?       => open_source?,
-        :cms                => cms,
+        :open_source?       => inspector.canonical_endpoint.sniffer.open_source?,
+        :framework          => inspector.canonical_endpoint.sniffer.framework,
         :"508_errors"       => inspector.canonical_endpoint.accessibility.errors
       }
     end

@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/benbalter/site-inspector.git
-  revision: 341c7cb8e2dafbf0511e4b3995adcfa3bd1e8113
+  revision: cdb09415aaeb9456bfa9f708e86a3eadff513e12
   specs:
-    site-inspector (2.1.0)
+    site-inspector (3.0.0)
       colorator (~> 0.1)
       dnsruby (~> 1.56)
       gman (~> 4.1)
@@ -38,8 +38,8 @@ GEM
       public_suffix (>= 1.2)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
-    oj (2.12.11)
-    parallel (1.6.0)
+    oj (2.12.12)
+    parallel (1.6.1)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -52,7 +52,7 @@ GEM
     swot (0.4.2)
       naughty_or_nice
       public_suffix
-    terminal-table (1.4.5)
+    terminal-table (1.5.2)
     typhoeus (0.7.3)
       ethon (>= 0.7.4)
 
