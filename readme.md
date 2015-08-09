@@ -24,8 +24,8 @@ You can see the full results in the [`candidates.csv`](candidates.csv) file, but
 | dnssec?            | 3/15 (20.0%)   | 2/10 (20.0%)   | 1/5 (20.0%)  |
 | ipv6?              | 9/15 (60.0%)   | 7/10 (70.0%)   | 2/5 (40.0%)  |
 | google_apps?       | 5/15 (33.33%)  | 3/10 (30.0%)   | 2/5 (40.0%)  |
-| open_source?       | 9/15 (60.0%)   | 5/10 (50.0%)   | 4/5 (80.0%)  |
-| 508_errors (avg)   | 23.22          | 28.0           | 13.67        |
+| open_source?       | 10/15 (66.67%) | 6/10 (60.0%)   | 4/5 (80.0%)  |
+| 508_errors (avg)   | 20.9           | 24.0           | 13.67        |
 
 ## How the data is gathered
 
