@@ -25,7 +25,7 @@ You can see the full results in the [`candidates.csv`](candidates.csv) file, but
 | ipv6?              | 9/15 (60.0%)   | 7/10 (70.0%)   | 2/5 (40.0%)  |
 | google_apps?       | 5/15 (33.33%)  | 3/10 (30.0%)   | 2/5 (40.0%)  |
 | open_source?       | 11/15 (73.33%) | 7/10 (70.0%)   | 4/5 (80.0%)  |
-| 508_errors (avg)   | 17.67          | 21.0           | 16.0         |
+| 508_errors (avg)   | 12.75          | 6.0            | 19.5         |
 
 ## How the data is gathered
 

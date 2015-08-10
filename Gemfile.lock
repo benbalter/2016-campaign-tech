@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/benbalter/site-inspector.git
-  revision: 4553d3dd8cbfe173020a04d23951b38022bd71a3
+  revision: 7dcfd207726278342a8cb563210dc044314edc38
   specs:
     site-inspector (3.0.0)
       cliver (~> 0.3)
@@ -10,6 +10,7 @@ GIT
       mercenary (~> 0.3)
       nokogiri (~> 1.6)
       oj (~> 2.11)
+      parallel (~> 1.6)
       public_suffix (~> 1.4)
       sniffles (~> 0.2)
       typhoeus (~> 0.7)
