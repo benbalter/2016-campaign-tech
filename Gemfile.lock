@@ -1,8 +1,9 @@
 GIT
   remote: git://github.com/benbalter/site-inspector.git
-  revision: 0d2a5618515fe3050f87bea242b93941165a8612
+  revision: 839c36b714f538e1442cad816cbff21566e31bfe
   specs:
     site-inspector (3.0.0)
+      cliver (~> 0.3)
       colorator (~> 0.1)
       dnsruby (~> 1.56)
       gman (~> 4.1)
@@ -17,6 +18,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.3.8)
+    cliver (0.3.2)
     coderay (1.1.0)
     colorator (0.1)
     colorize (0.7.7)
