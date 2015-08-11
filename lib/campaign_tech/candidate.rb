@@ -76,7 +76,6 @@ class CampaignTech
         :server             => inspector.canonical_endpoint.headers.server,
         :open_source?       => inspector.canonical_endpoint.sniffer.open_source?,
         :framework          => inspector.canonical_endpoint.sniffer.framework,
-        :"508_errors"       => inspector.canonical_endpoint.accessibility.errors
       }
     end
   end
