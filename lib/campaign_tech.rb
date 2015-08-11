@@ -42,7 +42,6 @@ class CampaignTech
         next unless check =~ /\?$/
         table.add_row count_row(check)
       end
-      table.add_row average_row(:"508_errors")
     end.to_s.split("\n")[1...-1].join("\n")
   end
 

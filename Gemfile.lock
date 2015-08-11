@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/benbalter/site-inspector.git
-  revision: 95b4ea2f78a43ffb5d170107387321a2140bbe7f
+  revision: 9a48861291f8a25bf42a56cd665e4b931a753116
   specs:
-    site-inspector (3.0.0)
+    site-inspector (3.1.0)
       cliver (~> 0.3)
       colorator (~> 0.1)
       dnsruby (~> 1.56)
